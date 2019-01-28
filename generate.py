@@ -8,7 +8,7 @@ number_of_plots = 30
 
 latex_code = ""
 for plot_number in range(number_of_plots):
-    X = np.random.normal(0, 1, 100)
+    X = np.random.normal(0, 1, 1000)
 
     plt.plot(X)
     savename = 'img_tikz/plot_{plot_number}.tikz'.format(plot_number=plot_number)
